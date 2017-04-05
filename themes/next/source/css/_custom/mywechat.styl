@@ -1,0 +1,24 @@
+.box{
+  position: fixed;
+  bottom: 100px;
+  left: 0px;
+}
+.menu{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: #333;
+}
+.hover{
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  height: 0px;
+  width: 0px;
+  background-color: #ccc;
+  transition: all .3s ease;
+}
+.menu:hover .hover{
+  height: 150px;
+  width: 150px;
+}
